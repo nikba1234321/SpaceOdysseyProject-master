@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/imageViewShip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="Appearance of the ship"
+        android:src="@drawable/spaceship_icon"/>
+
+    <TextView
+        android:id="@+id/textViewSpeedX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:paddingEnd="10dp"/>
+
+    <TextView
+        android:id="@+id/textViewSpeedY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewSpeedX"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:paddingEnd="10dp"/>
+
+    <TextView
+        android:id="@+id/textViewSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewSpeedY"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:paddingEnd="10dp"/>
+
+    <TextView
+        android:id="@+id/textViewPositionX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/textViewSpeedX"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:paddingEnd="10dp"/>
+
+    <TextView
+        android:id="@+id/textViewPositionY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewPositionX"
+        android:layout_toRightOf="@+id/textViewSpeedY"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:paddingEnd="10dp"/>
+
+</RelativeLayout>

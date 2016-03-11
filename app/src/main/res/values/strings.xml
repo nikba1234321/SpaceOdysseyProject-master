@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Space Odyssey</string>
+    <string name="score">Score: %d</string>
+    <string name="level">Level: %d</string>
+
+    <string name="velocityX">Velocity X: %.2f</string>
+    <string name="velocityY">Velocity Y: %.2f</string>
+    <string name="velocity">Velocity: %.2f</string>
+    <string name="positionX">Position X: %.2f</string>
+    <string name="positionY">Position Y: %.2f</string>
+</resources>
